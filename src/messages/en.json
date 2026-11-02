@@ -1,0 +1,248 @@
+{
+  "common": {
+    "appName": "Myanmar Lottery",
+    "official": "OFFICIAL",
+    "amount": "{value, number} MMK",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "tickets": "Tickets",
+    "results": "Results",
+    "winners": "Winners",
+    "cart": "Cart",
+    "profile": "Profile",
+    "label": "Main navigation",
+    "lucky": "Lucky tree"
+  },
+  "header": {
+    "toggleTheme": "Toggle dark mode",
+    "cart": "Cart ({count})",
+    "language": "Switch language"
+  },
+  "meta": {
+    "home": {
+      "title": "Myanmar Lottery — Buy Official Lottery Tickets Online",
+      "description": "Browse and buy official Myanmar lottery tickets online. Search by number, filter lucky numbers and check the latest draw."
+    },
+    "results": {
+      "title": "Lottery Draw Results — Myanmar Lottery",
+      "description": "Latest Myanmar lottery draw results: first prize, neighbor, second, third and last-digit prizes."
+    },
+    "winners": {
+      "title": "Lottery Winners & Ticket Checker — Myanmar Lottery",
+      "description": "Check whether your ticket number won and see every winner of the latest Myanmar lottery draw."
+    },
+    "cart": {
+      "title": "Your Cart — Myanmar Lottery",
+      "description": "Review the lottery tickets in your cart."
+    },
+    "checkout": {
+      "title": "Checkout — Myanmar Lottery",
+      "description": "Confirm your lottery ticket order."
+    },
+    "auth": {
+      "title": "Log In or Sign Up — Myanmar Lottery",
+      "description": "Log in to buy Myanmar lottery tickets online."
+    },
+    "profile": {
+      "title": "My Profile — Myanmar Lottery",
+      "description": "Your account, orders and prizes."
+    },
+    "lucky": {
+      "title": "Lucky Tree — Generate a Random Lucky Ticket",
+      "description": "Shake the 3D lucky tree and let the wind pick your random lottery ticket number."
+    }
+  },
+  "home": {
+    "drawDate": "Draw Date: {date}",
+    "title": "Myanmar Special Lottery",
+    "prizeCaption": "1st Prize · 1 Winner",
+    "viewResults": "Draw results",
+    "viewWinners": "Winners",
+    "searchPlaceholder": "Search ticket number…",
+    "searchLabel": "Search ticket number",
+    "searchButton": "Search",
+    "empty": "No tickets found",
+    "listTitle": "Available tickets",
+    "found": "{count, plural, one {# ticket found} other {# tickets found}}",
+    "emptyHint": "Try a different number or reset the filters."
+  },
+  "filters": {
+    "title": "Filters",
+    "reset": "Reset filters",
+    "toggle": "Toggle filters",
+    "category": "Number type",
+    "end0": "Ends in 0",
+    "end5": "Ends in 5",
+    "repeat": "Repeating",
+    "sequence": "Sequence",
+    "lucky": "Lucky",
+    "featured": "Featured",
+    "recommend": "Recommended tickets",
+    "sortBy": "Sort by",
+    "sort": {
+      "lowToHigh": "Number: low to high",
+      "highToLow": "Number: high to low"
+    }
+  },
+  "ticket": {
+    "serial": "Serial: {serial}",
+    "add": "+ Add",
+    "inCart": "✓ In cart",
+    "added": "Added to cart",
+    "removed": "Removed from cart",
+    "label": "Ticket {num}"
+  },
+  "results": {
+    "drawDate": "Result · Draw Date: {date}",
+    "firstPrize": "1st Prize",
+    "winnerCount": "{count, plural, one {# Winner} other {# Winners}}",
+    "viewWinners": "See all winners",
+    "footer": "Official results from the Myanmar Lottery Authority. Draws on the 1st and 16th of every month.",
+    "tiers": {
+      "first": "1st Prize",
+      "neighbor": "Neighbor Prize",
+      "second": "2nd Prize",
+      "third": "3rd Prize",
+      "front3": "Front 3 Digits",
+      "last3": "Last 3 Digits",
+      "last2": "Last 2 Digits"
+    },
+    "checkTicket": "Check my ticket",
+    "prizesLabel": "Prize categories",
+    "amountEach": "{amount} per ticket",
+    "tabs": {
+      "top": "Top prizes",
+      "digit": "Digit prizes"
+    }
+  },
+  "winners": {
+    "title": "We have winners!",
+    "subtitle": "1st Prize — Draw: {date}",
+    "checkTitle": "Check your ticket number",
+    "inputLabel": "Ticket number",
+    "placeholder": "e.g. 274916",
+    "checkButton": "Check",
+    "won": "Congratulations! Your ticket wins the {tier}: {amount}",
+    "lost": "Sorry, ticket {num} did not win this draw.",
+    "allWinners": "All prize winners",
+    "claimLocation": "Claim location",
+    "claimValue": "Myanmar Lottery HQ, Yangon",
+    "digitHint": "Any ticket whose digits match wins the prize."
+  },
+  "cart": {
+    "title": "Cart",
+    "emptyTitle": "Your cart is empty",
+    "emptySub": "Pick some lucky tickets to get started.",
+    "browse": "Browse tickets",
+    "quantity": "Quantity",
+    "quantityValue": "{count, plural, one {# ticket} other {# tickets}}",
+    "total": "Total",
+    "checkout": "Proceed to checkout →",
+    "remove": "Remove",
+    "removeLabel": "Remove ticket {num}",
+    "subtitle": "Review your tickets before checkout.",
+    "summary": "Order summary",
+    "subtotal": "Subtotal",
+    "continue": "Continue browsing",
+    "secure": "Safe & trusted payment"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "summary": "Ticket summary",
+    "buyer": "Buyer information",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phone": "Phone number",
+    "phonePlaceholder": "09 XXX XXX XXX",
+    "nrc": "NRC number",
+    "nrcPlaceholder": "12/OUKAMA(N)123456",
+    "payment": "Payment method",
+    "methods": {
+      "qr": "QR code",
+      "bank": "Bank transfer",
+      "card": "Credit / debit card"
+    },
+    "total": "Total amount",
+    "confirm": "Confirm order",
+    "processing": "Placing order…",
+    "terms": "By confirming, you agree to our Terms & Conditions.",
+    "success": "Order placed! Good luck!",
+    "emptyCart": "Your cart is empty."
+  },
+  "auth": {
+    "subtitle": "Buy tickets online — safe & trusted",
+    "logIn": "Log in",
+    "signUp": "Sign up",
+    "identifier": "Phone or email",
+    "identifierPlaceholder": "Enter phone or email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "name": "Full name",
+    "namePlaceholder": "Your name",
+    "confirmPassword": "Confirm password",
+    "forgot": "Forgot password?",
+    "or": "or",
+    "google": "Continue with Google",
+    "facebook": "Continue with Facebook",
+    "comingSoon": "Coming soon",
+    "welcome": "Welcome back!",
+    "created": "Account created!",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "welcomeTitle": "Welcome to {app}",
+    "benefit1": "Buy official tickets in seconds",
+    "benefit2": "Check your numbers against every draw",
+    "benefit3": "Safe, trusted payment",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "profile": {
+    "title": "Profile",
+    "ticketsBought": "Tickets bought",
+    "drawsWon": "Draws won",
+    "totalWon": "Total won",
+    "myTickets": "My tickets",
+    "history": "Purchase history",
+    "bank": "Prize bank account",
+    "notifications": "Notifications",
+    "security": "Security",
+    "logout": "Log out",
+    "noOrders": "No orders yet.",
+    "order": "Order {id}",
+    "loggedOut": "Logged out"
+  },
+  "gate": {
+    "loginRequired": "Please log in to continue."
+  },
+  "errors": {
+    "required": "This field is required",
+    "digitsOnly": "Digits only",
+    "ticketLength": "Enter exactly 6 digits",
+    "phoneOrEmail": "Enter a valid Myanmar phone number or email",
+    "passwordLength": "At least 6 characters",
+    "nameLength": "Enter at least 2 characters",
+    "passwordMismatch": "Passwords do not match",
+    "phone": "Enter a valid Myanmar phone number",
+    "nrc": "Enter a valid NRC, e.g. 12/OUKAMA(N)123456"
+  },
+  "lucky": {
+    "title": "Lucky tree",
+    "subtitle": "A boy shakes the tree — catch the golden envelope with your lucky number.",
+    "generate": "Shake the tree",
+    "again": "Generate again",
+    "resultTitle": "Your lucky ticket",
+    "addToCart": "Add to cart",
+    "viewCart": "In cart — view cart",
+    "hint": "Drag to look around the tree.",
+    "announce": "Your lucky ticket is {num}.",
+    "status": {
+      "walking": "A boy is coming out of the house…",
+      "shaking": "He is shaking the tree…",
+      "dropping": "A golden envelope falls!",
+      "opening": "Opening your envelope…",
+      "returning": "He is walking back home…"
+    },
+    "close": "Close"
+  }
+}
