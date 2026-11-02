@@ -30,7 +30,7 @@ export default function Header() {
           </span>
         </Link>
 
-        <MainNav className="order-last h-10 w-full md:order-none md:h-14 md:w-auto" />
+        <MainNav className="order-last h-10 w-full overflow-x-auto [scrollbar-width:none] md:order-none md:h-14 md:w-auto md:overflow-visible" />
 
         <div className="flex h-14 items-center gap-1.5">
           <LocaleSwitcher />

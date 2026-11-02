@@ -3,7 +3,7 @@ import { routing } from "@/i18n/routing";
 import { localizedUrl } from "@/lib/seo";
 
 // Only public, indexable routes (cart/checkout/auth/profile are noindex).
-const PATHS = ["", "/results", "/winners", "/lucky"];
+const PATHS = ["", "/results", "/winners", "/lucky", "/chat"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return PATHS.flatMap((path) =>

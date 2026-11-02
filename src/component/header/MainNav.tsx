@@ -10,6 +10,7 @@ const ITEMS = [
   { href: "/results", key: "results" },
   { href: "/winners", key: "winners" },
   { href: "/lucky", key: "lucky" },
+  { href: "/chat", key: "chat" },
 ] as const;
 
 export default function MainNav({ className }: { className?: string }) {

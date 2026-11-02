@@ -13,8 +13,9 @@ jest.mock("@/i18n/navigation", () => ({
 describe("MainNav", () => {
   it("renders the public sections", () => {
     renderWithIntl(<MainNav />);
-    expect(screen.getAllByRole("link")).toHaveLength(4);
+    expect(screen.getAllByRole("link")).toHaveLength(5);
     expect(screen.getByRole("link", { name: "Winners" })).toHaveAttribute("href", "/winners");
+    expect(screen.getByRole("link", { name: "AI chat" })).toHaveAttribute("href", "/chat");
   });
 
   it("marks only the current section active", () => {

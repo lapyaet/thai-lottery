@@ -12,7 +12,8 @@
     "cart": "Cart",
     "profile": "Profile",
     "label": "Main navigation",
-    "lucky": "Lucky tree"
+    "lucky": "Lucky tree",
+    "chat": "AI chat"
   },
   "header": {
     "toggleTheme": "Toggle dark mode",
@@ -51,6 +52,10 @@
     "lucky": {
       "title": "Lucky Tree — Generate a Random Lucky Ticket",
       "description": "Shake the 3D lucky tree and let the wind pick your random lottery ticket number."
+    },
+    "chat": {
+      "title": "AI Chat Assistant — Ask the Robot about Myanmar Lottery",
+      "description": "Chat with a friendly 3D robot assistant about lottery tickets, draw results and prizes."
     }
   },
   "home": {
@@ -244,5 +249,33 @@
       "returning": "He is walking back home…"
     },
     "close": "Close"
+  },
+  "chat": {
+    "title": "AI chat",
+    "subtitle": "Ask the robot anything about tickets, results and prizes.",
+    "robotName": "Lotto Bot",
+    "greeting": "Hi! I'm Lotto Bot. Ask me about tickets, draw results or prizes.",
+    "placeholder": "Ask the robot anything…",
+    "inputLabel": "Message",
+    "send": "Send",
+    "clear": "Clear chat",
+    "retry": "Try again",
+    "error": "Something went wrong. Please try again.",
+    "thinking": "Thinking…",
+    "suggestionsLabel": "Suggestions",
+    "suggestions": {
+      "draw": "What is the latest draw result?",
+      "buy": "How do I buy a ticket?",
+      "prize": "How are prizes paid out?"
+    },
+    "status": {
+      "idle": "Ready to chat",
+      "thinking": "Thinking…",
+      "talking": "Answering…",
+      "error": "Something went wrong"
+    },
+    "you": "You",
+    "bot": "Lotto Bot",
+    "noWebgl": "3D view is not available on this device."
   }
 }
